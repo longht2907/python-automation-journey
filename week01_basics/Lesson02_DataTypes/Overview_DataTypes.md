@@ -48,6 +48,8 @@ c = 2 + 3j      # complex: số phức
 ```
 
 ### 2. Boolean (True / False)
+- **Boolean** : là kiểu dữ liệu đại diện cho giá trị logic đúng hoặc sai
+
 ```python
 is_python_fun = True
 print(is_python_fun)  # True
@@ -119,9 +121,3 @@ print(tuple(c))    # (1, 2, 3)
 3. Tạo danh sách (`list`) các số, chuyển sang `tuple`, và ngược lại.
 4. So sánh sự khác nhau giữa `set` và `list` khi thêm phần tử trùng.
 ---
-
-## X. Hướng học tiếp theo
-- **Buổi 1-2:** Ôn kiểu cơ bản (`int`, `float`, `str`, `bool`)
-- **Buổi 3-4:** Học sâu **List, Tuple**
-- **Buổi 5-6:** Tìm hiểu **Set, Dictionary**
-- **Buổi 7:** Bài tập tổng hợp
