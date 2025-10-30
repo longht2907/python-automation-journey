@@ -13,9 +13,9 @@ name = "Long"
 
 ## 2. Quy tắc đặt tên biến
 
-- Gồm chữ cái (a-z, A-Z), số (0-9), dấu gạch dưới `_` 
-- Khôngbắt đầu bằng số 
-- Phân biệt chữ hoa và chữ thường - Không trùng với từkhóa của Python (`if`, `for`, `class`, ...)
+- Gồm chữ cái (a-z, A-Z), số (0-9), dấu gạch dưới `_`
+- Không bắt đầu bằng số
+- Phân biệt chữ hoa và chữ thường - Không trùng với từ khóa của Python (`if`, `for`, `class`, ...)
 
 📛 Không hợp lệ:
 
@@ -33,8 +33,6 @@ x = 5
 y = 3.14
 name = "Long"
 ```
-
-
 ### Gán nhiều biến cùng lúc:
 
 ``` python
@@ -91,7 +89,6 @@ def demo():
 demo()
 print("Ngoài hàm:", x)
 ```
-
 Dùng từ khóa `global` nếu muốn thay đổi biến toàn cục trong hàm:
 
 ``` python
@@ -104,7 +101,7 @@ def change():
 change()
 print(x)  # 20
 ```
-## 7. Tham chiếu và kiểu dữ liệu mutable/immutable
+## 7. Tham chiếu (Reference) và kiểu dữ liệu có thể thay đổi (Mutable) / không thể thay đổi (Immutable)
 
 ``` python
 a = [1, 2, 3]
