@@ -2,7 +2,7 @@
 # r = 5
 # pi = 3.1416
 
-# chu_vi = 2 * pi * r
+chu_vi = 2 * pi * r
 # dien_tich = pi *(r ** 2)
 
 # print(f"Chu vi là : {chu_vi}")
