@@ -2,7 +2,7 @@
 # r = 5
 # pi = 3.1416
 
-chu_vi = 2 * pi * r
+# chu_vi = 2 * pi * r
 # dien_tich = pi *(r ** 2)
 
 # print(f"Chu vi là : {chu_vi}")
@@ -18,3 +18,5 @@ chu_vi = 2 * pi * r
 
 # print(f"Chu vi hình chử nhật của bạn là : {P}")
 # print(f"Diện tích hình chử nhật của bạn là : {S}")
+
+print( 20 == 20)
